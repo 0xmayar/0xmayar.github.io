@@ -1,3 +1,6 @@
-title: M4Y4R's Cybersecurity Blog 
-description: Writeups, walkthroughs, and learning notes
 future: true
+readme_index:
+  enabled: true
+  remove_original: false
+plugins:
+  - jekyll-readme-index
