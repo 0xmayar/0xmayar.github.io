@@ -1,1 +1,22 @@
-
+<div class="sidebar">
+  <h2>Categories</h2>
+  <ul class="tree">
+    <li>
+      <strong>Hack The Box</strong>
+      <ul>
+        {% for post in site.posts %}
+          {% if post.categories contains 'Hack The Box' %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <strong>Vuln Hub</strong>
+      <ul>
+        <!-- Add Vuln Hub posts here when you create them -->
+        <li>No posts yet</li>
+      </ul>
+    </li>
+  </ul>
+</div>
