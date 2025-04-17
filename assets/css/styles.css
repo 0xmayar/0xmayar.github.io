@@ -22,21 +22,43 @@ body {
   margin-bottom: 10px;
 }
 
-.tree ul {
-  list-style: none;
-  padding-left: 20px;
+.sidebar img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
 }
 
-.tree li {
+.category-list {
+  margin: 0;
+  padding: 0;
+}
+
+.category-item {
+  margin: 10px 0;
+}
+
+.category-item strong {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.category-item ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.category-item li {
   margin: 5px 0;
 }
 
-.tree a {
+.category-item a {
   color: #66b3ff;
   text-decoration: none;
 }
 
-.tree a:hover {
+.category-item a:hover {
   text-decoration: underline;
 }
 
