@@ -1,6 +1,6 @@
 title: "0xM4Y4R's Cybersecurity Blog"
 description: "Writeups, walkthroughs, and learning notes"
-theme: jekyll-theme-minima
+theme: minima
 markdown: kramdown
 show_excerpts: true
 future: true
