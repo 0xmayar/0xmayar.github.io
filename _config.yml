@@ -3,3 +3,4 @@ description: "Writeups, walkthroughs, and learning notes"
 theme: jekyll-theme-slate
 markdown: kramdown
 show_excerpts: true
+future: true
