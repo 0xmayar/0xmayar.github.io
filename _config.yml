@@ -1,6 +1,3 @@
-title: "0xM4Y4R's Cybersecurity Blog"
-description: "Writeups, walkthroughs, and learning notes"
-theme: minima
-markdown: kramdown
-show_excerpts: true
+title: 0xM4Y4R's Cybersecurity Blog
+description: Writeups, walkthroughs, and learning notes
 future: true
