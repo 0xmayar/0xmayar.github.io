@@ -1,6 +1,6 @@
 <div class="sidebar">
-  <!-- Include README.md content -->
-  {% capture readme_content %}{% include README.md %}{% endcapture %}
+  <!-- Include README content from _includes -->
+  {% capture readme_content %}{% include readme-content.md %}{% endcapture %}
   {{ readme_content | markdownify }}
 
   <h2>Categories</h2>
