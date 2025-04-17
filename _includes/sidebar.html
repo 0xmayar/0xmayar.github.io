@@ -1,7 +1,11 @@
 <div class="sidebar">
+  <!-- Include README.md content -->
+  {% capture readme_content %}{% include README.md %}{% endcapture %}
+  {{ readme_content | markdownify }}
+
   <h2>Categories</h2>
-  <ul class="tree">
-    <li>
+  <div class="category-list">
+    <div class="category-item">
       <strong>Hack The Box</strong>
       <ul>
         {% for post in site.posts %}
@@ -10,13 +14,12 @@
           {% endif %}
         {% endfor %}
       </ul>
-    </li>
-    <li>
+    </div>
+    <div class="category-item">
       <strong>Vuln Hub</strong>
       <ul>
-        <!-- Add Vuln Hub posts here when you create them -->
         <li>No posts yet</li>
       </ul>
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>
