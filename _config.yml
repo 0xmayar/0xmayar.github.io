@@ -1,6 +1,0 @@
-future: true
-readme_index:
-  enabled: true
-  remove_original: false
-plugins:
-  - jekyll-readme-index
