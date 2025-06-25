@@ -1,6 +1,6 @@
 ---
 title: Artificial - HTB
-date: 2025-06-26 14:00:00 +0200
+date: 2025-06-26 01:00:00 +0200
 categories: [Hack The Box, Linux0]
 tags: [ Linux , File-Upload , Service-Abuse ]
 toc: true
