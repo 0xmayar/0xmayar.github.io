@@ -116,6 +116,7 @@ Then I ran linpeas, I didn't get any direct exploits, but active ports catches m
 
 port 5000 runs artificial.htb locally but what's on 9898?
 using this command for port forwarding
+
 ```bash
 ssh gael@10.10.11.74 -L 9898:127.0.0.1:9898
 ```
