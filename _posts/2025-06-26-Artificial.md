@@ -62,6 +62,7 @@ sudo docker build -t my-tf-container .
 ![](/assets/img/attachments/Artificial-3.png)
 
 to be able to mount codes from the directory of my host:
+
 ```bash
 sudo docker run -it -v $(pwd):/code my-tf-container
 ```
