@@ -5,7 +5,7 @@ categories: [Mobile Hacking Lab, Android]
 tags: [Android , service , RCE , static-analysis]
 toc: true
 comments: true
-image: ./assets/img/attachments/cyclic-4.png
+image: ./assets/img/attachments/cyclic-6.png
 imageNameKey: cyclic
 ---
 Hey Everyone!
