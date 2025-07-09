@@ -2,7 +2,7 @@
 title: Cyclic Scanner - MHL
 date: 2025-07-09 01:00:00 +0200
 categories: [Mobile Hacking Lab, Android]
-tags: [Android , service , RCE , static-analysis]
+tags: [Android , service , RCE , Static-Analysis]
 toc: true
 comments: true
 image: ./assets/img/attachments/cyclic-6.png
