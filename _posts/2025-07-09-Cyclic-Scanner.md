@@ -14,10 +14,10 @@ Note: its required to use android 11+, I was using LDplayer and the app crashed 
 ` android:compileSdkVersion="34"`
 ## First Steps into App Functionality
 When I run the app at first, it requests a permission to all file access, without it the app won't work
-![](/assets/img/attachments/attachemnts/cyclic-5.png)
+![](/assets/img/attachments/cyclic-5.png)
 
 After granting it this permission, we see this toggle switch
-![](/assets/img/attachments/attachemnts/cyclic.png)
+![](/assets/img/attachments/cyclic.png)
 and the message we get if we tried to turn it off, so lets start analyzing the code and understand what we have here!
 ## Manifest File Analysis
 ```xml
