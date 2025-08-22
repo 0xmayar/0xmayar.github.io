@@ -17,7 +17,7 @@ timezone:
 
 title: MAY4R # the main title
 
-tagline: This blog was inspired by a writeup I found about someone solving 1000 machines while prepping for OSCP — it lit a spark in me. Now, I’m sharing my own hacking journey, one machine at a time. # it will display as the subtitle
+tagline: A collection of challenges, solutions, and lessons from my hacking journey — documenting what I solve, how I approach it, and the takeaways along the way. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   This blog was inspired by a writeup I found about someone solving 1000 machines while prepping for OSCP — it lit a spark in me. Now, I’m sharing my own hacking journey, one machine at a time.
