@@ -12,7 +12,7 @@ Hey, I’m Mayar — a passionate and curious pentester with a background in eng
 
 ## 📝 WHY I STARTED THIS BLOG
 
-This blog was born out of inspiration — after reading a writeup from someone who solved over 1000 machines while preparing for OSCP, I felt the urge to document my own journey too. It started as a way to keep track of my progress, but it's also a space to give back to the community that's been helping me grow.
+This blog started as a way to record the challenges and machines I work on. Writing things down helps me understand them better, and at the same time, it’s a chance to share what I learn with others who might face the same problems.
 
 ---
 
