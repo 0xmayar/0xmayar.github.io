@@ -25,16 +25,15 @@ The provided Python code implements a simple web template rendering process with
 **Key observations relevant to exploitation:**
 #### Predictable Token Generation
 In `main()`, the seed is derived from the current Unix timestamp truncated to seconds:
+
 ```python
 tokenRoot = genToken(int(time.time()) // 1)
 ```
 
 ```python
-def genToken(seed:str) -> str:
-
-    random.seed(seed)
-
-    return ''.join(random.choices('abcdef0123456789', k=16))
+def genToken(seed: str) -> str:
+    random.seed(seed)
+    return ''.join(random.choices('abcdef0123456789', k=16))
 ```
 
 Because the seed is predictable (based on server time), we can replicate the token generation and obtain a valid `tokenRoot`
